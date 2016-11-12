@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit- box-sizing: 	border-box;
+    -moz- box-sizing: border-box;
+    -o- box-sizing: border-box;
+    -ms- box-sizing: border-box;
+}
+@font-face {
+  font-family: 'liplove';
+  src: url('../fonts/liplove Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family:'moonbold';
+	src:url(../fonts/Moon Bold.otf);
+	
+}
+
+a:focus,a:hover{
+	text-decoration: none;
+}
+body{
+	color: #000;
+	font-family:'liplove';
+	letter-spacing: 2px;
+}
+/*end pre set area*/
+header{
+	margin-top: 100px;
+}
+header .navbar-nav{
+	margin-bottom: 45px;
+}
+header .navbar-nav img{
+	padding-bottom: 10px;
+}
+header .navbar-nav span{
+	font-family:'liplove';
+	text-transform: uppercase;
+	color: #000;
+}
+/*====================|| End header Area||=========*/
+.content{}
+.content .cart {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content .cart a.login{
+	color: #000;
+	font-size: 14px;
+}
+.content .cart a.login i{
+
+}
+.content .menu{}
+.content .menu ul{
+	font-family:'liplove';
+}
+.content .menu ul li{
+	margin-top: 5px;
+}
+.content .menu ul li a{
+	font-family:'liplove';
+	color: #000;
+}
+.content .menu ul li a i{
+	display: none;
+}
+.content .menu ul li.active i,
+.content .menu ul li a:hover i{
+	display: inline-block;
+}
+.content .main-content{}
+.content .main-content h1 {
+	font-family: 'liplove';
+	left: 50%;
+	position: absolute;
+	text-transform: uppercase;
+	top: -60px;
+	transform: translateX(-50%);
+}
+.content .main-content h1 .number{
+	font-size: 70px;
+	margin-bottom: -40px;
+	
+}
+.content .main-content {}
+.content .main-content .img{
+	position: relative;
+	width: 100%;
+}
+.content .main-content .img p{
+	font-family:'liplove';
+	bottom: 10px;
+    font-size: 17px;
+    left: 50%;
+    position: absolute;
+    text-transform: uppercase;
+	transform: translateX(-50%);
+}
+.content  .button{
+	padding-bottom: 113px;
+}
+.content .button a {
+	font-family: 'liplove';
+	background: #000;
+	color: #fff;
+	font-size: 16px;
+	margin: 30px 15px 0;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+/*start join now - single item*/
+.content .single-item{
+
+}
+.content .single-item img{}
+.content .single-item h4{}
+.content .single-item .button{}
+.content .single-item .button a{}
+.content .note{}
+.content .note h6{
+	margin-bottom: 80px;
+}
+/*end join now - single item*/
+/*start pastbags bag*/
+.content .sort-by{}
+.content .single-bag{
+	width: 100%;
+}
+.content .single-bag img{
+	width: 100%;
+}
+.content .single-bag h4{}
+/*end pastbags bag*/
+/*strat store - content*/
+.content .store{
+	width: 100%;
+}
+
+.content .store img{
+	width: 100%;
+
+}
+.content .store h1{}
+.content .store h3{}
+.content .store span{}
+.content .store button{}
+.content .store h4{}
+.content .store h4 b{}
+.content .store p{}
+.content .store .social{}
+.content .store .social ul{}
+.content .store .social ul li{}
+
+
+
+
+
+
+
+
+/*end store - content*/
+
+
+
+/*===========|| end content area||=============*/
+.services{
+	background: #e4e4e4 none repeat scroll 0 0;
+	padding: 43px 0 70px;
+}
+.services h1{
+	font-family:'liplove';
+	text-transform: uppercase;
+	font-weight:lighter;
+}
+.services h3 {
+	font-family: 'liplove';
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.services .single-item{
+	background: #fff none repeat scroll 0 0;
+	height: 340px;
+	width: 100%;
+	padding: 25px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.services .single-item h2 {
+	font-family: 'liplove';
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.services .single-item img{
+	width: auto;
+	padding: 40px 0;
+
+}
+.services .single-item p {
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	font-size: 12px;
+	right: 15px;
+}
+/*=============|| end services area ||=========*/
+/*start join now service*/
+.service{
+	position: relative;
+}
+.service::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	background: #E5E5E5;
+	top: 10%;
+}
+.service img{
+	width: 100%;
+}
+.service h1 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -40px;
+}
+.service h4 {
+	margin-bottom: -100px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 30px;
+}
+.service button{}
+.service button a{}
+.service button a .store{}
+
+/*end join now service*/
+
+.sponsor{
+	font-family:'liplove';
+	padding-top: 60px;
+	text-transform: uppercase;
+}
+.sponsor h2{
+	font-family:'liplove';
+	padding-bottom: 50px;
+	text-transform: uppercase;
+}
+.sponsor .single-item{}
+.sponsor .single-item img{
+	height: 40px;
+	width: 110px;
+}
+/*==========|| end sponsor area||==========*/
+footer{
+	margin-top: 100px;
+}
+footer .button a {
+  	font-family:'liplove';
+  	background: #000 none repeat scroll 0 0;
+  	color: #fff;
+  	font-size: 15px;
+  	padding: 10px 15px;
+  	text-transform: uppercase;
+}
+footer .social{}
+footer .social p{
+	font-family:'liplove';
+	text-transform: uppercase;
+
+}
+footer .social ul{}
+footer .social ul li{}
+footer .social ul li a{
+	border: 2px solid black;
+	border-radius: 50px;
+	color: #000;
+	display: block;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+}
+footer .social ul li a i{}
+footer .social ul{}
+footer .social ul li a:hover{
+	
+}
+.button {
+	text-align: center;
+}
+.button a {
+  	font-family:'liplove';
+  	background: #000 none repeat scroll 0 0;
+  	color: #fff;
+  	font-size: 15px;
+  	padding: 10px 15px;
+  	text-transform: uppercase;
+}
+.social ul li a{
+	border: 2px solid black;
+	border-radius: 50px;
+	color: #000;
+	display: block;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+}  	
+
+.single-item img{
+	width: 100%;
+}
+
+
+.content .button a.store {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: auto;
+}
+
